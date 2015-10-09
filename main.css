@@ -1,0 +1,82 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-size: 3vh; /* default font-size = 1.0rem */
+    line-height: 1.25;
+    background-color: #222;
+    font-family: 'Helvetica Neue', Calibri, Verdana, sans-serif;
+    padding: 1rem;
+    color: white;
+}
+
+#mainnav li{
+    float:left;
+    width: 20%;
+    border-top: .5rem solid #666;
+    border-bottom:  .5rem solid #666;
+}
+
+h1{
+    padding: 3rem 1rem 3rem 1rem; 
+}
+h3{
+    background-color: #444;
+    padding: 6rem 1rem 1rem 1rem;
+    font-size: 2rem;
+}
+p{
+    background-color: #444;
+    padding: 1rem;
+}
+
+nav a, nav a:link, nav a:visited{
+    color: gold;
+    text-decoration: none;
+    line-height: 2;
+}
+nav a:hover, nav a:active{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul{
+    background-color: #444;
+    font-size: 1.5rem;
+    text-align: center;
+}
+nav li{
+    list-style-type: none;
+}
+#wrapper{       
+  max-width:            929px;
+  width:                90%;
+  margin:               0 auto;
+}
+#masthead{
+    border: 1px solid #666;
+    font-size: 2rem;
+    color: #eee;
+    background: #ddd url("http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg") no-repeat 50% 50%;
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+    text-align: center;
+}
+}
+#main{
+    background-color: #444;
+    color: #d4d4d4;
+    padding: 1rem;
+}
+#footer{
+    color: #999;
+}
+#footer p{
+    background-color: #333;
+    padding: 3rem 1rem 2rem 1rem;
+}
+#footer a{
+    color: gold;
+}
